@@ -11,7 +11,6 @@ elif page == "Achievements":
   with col1:
     response = requests.get("https://drive.google.com/file/d/1w_-hWtGOEDcUNGMx70Mot8E3eolxe9zW/view?usp=sharing")
     st.image(response.content)
-  with col2:
 elif page == "Experiences":
   st.subheader("Welcome to the experiences page")
 else:
