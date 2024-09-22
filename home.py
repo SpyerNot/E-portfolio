@@ -9,9 +9,7 @@ elif page == "Achievements":
   st.subheader("Welcome to the achievements page")
   col1, col2, col3 = st.columns(3)
   with col1:
-    file_id = "1w_-hWtGOEDcUNGMx70Mot8E3eolxe9zW"
-    url = f"https://drive.google.com/uc?export=view&id={file_id}"
-    response = requests.get(url)
+    response = "file:///C:/Users/T0930368A/Downloads/2024_ApLMSPMS001_LOW+LI+WEN.pdf"
     st.image(response.content)
 elif page == "Experiences":
   st.subheader("Welcome to the experiences page")
