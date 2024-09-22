@@ -9,6 +9,7 @@ elif page == "Achievements":
   col1, col2, col3 = st.columns(3)
   with col1:
     st.image("https://drive.google.com/file/d/1w_-hWtGOEDcUNGMx70Mot8E3eolxe9zW/view?usp=sharing")
+  with col2:
 elif page == "Experiences":
   st.subheader("Welcome to the experiences page")
 else:
