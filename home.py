@@ -9,8 +9,7 @@ elif page == "Achievements":
   st.subheader("Welcome to the achievements page")
   col1, col2, col3 = st.columns(3)
   with col1:
-    response = requests.get("https://drive.google.com/file/d/1w_-hWtGOEDcUNGMx70Mot8E3eolxe9zW/view?usp=sharing")
-    st.image(response.content)
+    st.image("https://drive.google.com/file/d/1w_-hWtGOEDcUNGMx70Mot8E3eolxe9zW")
 elif page == "Experiences":
   st.subheader("Welcome to the experiences page")
 else:
