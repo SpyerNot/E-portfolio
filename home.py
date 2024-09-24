@@ -9,7 +9,7 @@ elif page == "Achievements":
   st.subheader("Welcome to the achievements page")
   col1, col2, col3 = st.columns(3)
   with col1:
-    st.image("https://mail.google.com/mail/u/0/#inbox?projector=1".content)
+    st.image("https://mail.google.com/mail/u/0/#inbox?projector=1")
 elif page == "Experiences":
   st.subheader("Welcome to the experiences page")
 else:
